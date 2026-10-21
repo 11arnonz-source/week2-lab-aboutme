@@ -8,13 +8,13 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f4f7fa;
-  color: #ff0000;
+  color: #ff0101;
   margin: 0;
   padding: 2rem;
 }
 
 h1, h2, h3 {
-  color: #ff1010;
+  color: #0083fd;
 }
 
 img {
@@ -37,7 +37,7 @@ a:hover {
 /* 3. ID Selector */
 #top {
   text-align: center;
-  border-bottom: 2px solid #f98039;
+  border-bottom: 2px solid #1f4e79;
   padding-bottom: 1rem;
 }
 

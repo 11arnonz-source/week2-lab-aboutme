@@ -1,0 +1,56 @@
+/* 1. จัดการ Box Model พื้นฐาน */
+* {
+  box-sizing: border-box;
+}
+
+/* 2. Type Selectors & Typography */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f7fa;
+  color: #ff0000;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1, h2, h3 {
+  color: #ff1010;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+a {
+  color: #1f4e79;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* เอฟเฟกต์ :hover สำหรับลิงก์ */
+a:hover {
+  color: #ff8c00;
+}
+
+/* 3. ID Selector */
+#top {
+  text-align: center;
+  border-bottom: 2px solid #f98039;
+  padding-bottom: 1rem;
+}
+
+/* 4. Class Selector สำหรับสร้าง Card Component */
+.card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+}
+
+/* เอฟเฟกต์ :hover สำหรับการ์ด */
+.card:hover {
+  background-color: #e2e8f0;
+}
